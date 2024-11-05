@@ -1,0 +1,113 @@
+[
+    {
+      "product_id": 1,
+      "product_title": "Gaming Laptop",
+      "product_image": "images/gaming_laptop.jpg",
+      "category": "Laptops",
+      "price": 1499,
+      "description": "High-performance gaming laptop with RGB keyboard.",
+      "Specification": ["16GB RAM", "1TB SSD", "NVIDIA GPU"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 2,
+      "product_title": "Business Laptop",
+      "product_image": "images/business_laptop.jpg",
+      "category": "Laptops",
+      "price": 999,
+      "description": "Lightweight business laptop with long battery life.",
+      "Specification": ["8GB RAM", "512GB SSD"],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 3,
+      "product_title": "Android Smartphone",
+      "product_image": "images/android_smartphone.jpg",
+      "category": "Phones",
+      "price": 699,
+      "description": "Latest Android smartphone with stunning display.",
+      "Specification": ["128GB Storage", "6GB RAM"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 4,
+      "product_title": "iPhone 14",
+      "product_image": "images/iphone_14.jpg",
+      "category": "iPhones",
+      "price": 1099,
+      "description": "iPhone 14 with exceptional camera and performance.",
+      "Specification": ["256GB Storage", "A15 Bionic Chip"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 5,
+      "product_title": "Smartwatch Series 6",
+      "product_image": "images/smartwatch.jpg",
+      "category": "Smart Watches",
+      "price": 399,
+      "description": "Smartwatch with fitness tracking and notifications.",
+      "Specification": ["GPS", "Heart Rate Monitor"],
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": 6,
+      "product_title": "Bluetooth Headset",
+      "product_image": "images/bluetooth_headset.jpg",
+      "category": "Accessories",
+      "price": 129,
+      "description": "Wireless Bluetooth headset with noise cancellation.",
+      "Specification": ["20 hours battery", "Comfortable fit"],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": 7,
+      "product_title": "Wireless Charger",
+      "product_image": "images/wireless_charger.jpg",
+      "category": "Accessories",
+      "price": 49,
+      "description": "Fast wireless charger for smartphones.",
+      "Specification": ["10W Fast Charging"],
+      "availability": true,
+      "rating": 4.1
+    },
+    {
+      "product_id": 8,
+      "product_title": "MacBook Air M1",
+      "product_image": "images/macbook_air.jpg",
+      "category": "MacBooks",
+      "price": 999,
+      "description": "Ultra-light MacBook Air with M1 chip.",
+      "Specification": ["8GB RAM", "256GB SSD"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 9,
+      "product_title": "MacBook Pro M1",
+      "product_image": "images/macbook_pro.jpg",
+      "category": "MacBooks",
+      "price": 1299,
+      "description": "Powerful MacBook Pro for professionals.",
+      "Specification": ["16GB RAM", "512GB SSD"],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 10,
+      "product_title": "Smartphone Accessory Kit",
+      "product_image": "images/accessory_kit.jpg",
+      "category": "Accessories",
+      "price": 75,
+      "description": "Complete accessory kit for smartphones.",
+      "Specification": ["Screen protector", "Case", "Charger"],
+      "availability": true,
+      "rating": 4.2
+    }
+  ]
+  
