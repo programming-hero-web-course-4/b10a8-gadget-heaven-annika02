@@ -7,7 +7,7 @@
       "price": 1499,
       "description": "High-performance gaming laptop with RGB keyboard.",
       "Specification": ["16GB RAM", "1TB SSD", "NVIDIA GPU"],
-      "availability": true,
+      "availability": "In Stock",
       "rating": 4.7
     },
     {
@@ -18,7 +18,7 @@
       "price": 999,
       "description": "Lightweight business laptop with long battery life.",
       "Specification": ["8GB RAM", "512GB SSD"],
-      "availability": true,
+      "availability": "In Stock",
       "rating": 4.5
     },
     {
@@ -29,7 +29,7 @@
       "price": 699,
       "description": "Latest Android smartphone with stunning display.",
       "Specification": ["128GB Storage", "6GB RAM"],
-      "availability": true,
+      "availability": "In Stock",
       "rating": 4.6
     },
     {
@@ -40,7 +40,7 @@
       "price": 1099,
       "description": "iPhone 14 with exceptional camera and performance.",
       "Specification": ["256GB Storage", "A15 Bionic Chip"],
-      "availability": true,
+      "availability": " Not In Stock",
       "rating": 4.8
     },
     {
@@ -51,7 +51,7 @@
       "price": 399,
       "description": "Smartwatch with fitness tracking and notifications.",
       "Specification": ["GPS", "Heart Rate Monitor"],
-      "availability": true,
+      "availability": "In Stock",
       "rating": 4.3
     },
     {
@@ -62,7 +62,7 @@
       "price": 129,
       "description": "Wireless Bluetooth headset with noise cancellation.",
       "Specification": ["20 hours battery", "Comfortable fit"],
-      "availability": true,
+      "availability": "In Stock",
       "rating": 4.4
     },
     {
@@ -73,7 +73,7 @@
       "price": 49,
       "description": "Fast wireless charger for smartphones.",
       "Specification": ["10W Fast Charging"],
-      "availability": true,
+      "availability": "In Stock",
       "rating": 4.1
     },
     {
@@ -84,7 +84,7 @@
       "price": 999,
       "description": "Ultra-light MacBook Air with M1 chip.",
       "Specification": ["8GB RAM", "256GB SSD"],
-      "availability": true,
+      "availability": "In Stock",
       "rating": 4.8
     },
     {
@@ -95,7 +95,7 @@
       "price": 1299,
       "description": "Powerful MacBook Pro for professionals.",
       "Specification": ["16GB RAM", "512GB SSD"],
-      "availability": true,
+      "availability": "Not In Stock",
       "rating": 4.9
     },
     {
@@ -106,7 +106,7 @@
       "price": 75,
       "description": "Complete accessory kit for smartphones.",
       "Specification": ["Screen protector", "Case", "Charger"],
-      "availability": true,
+      "availability": "Not In Stock",
       "rating": 4.2
     }
   ]

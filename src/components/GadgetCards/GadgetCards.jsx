@@ -1,45 +1,12 @@
-// import { useEffect } from "react";
-// import { useParams, useRouteLoaderData } from "react-router-dom";
-
-// const GadgetCards = () => {
-//   const gadgets = useRouteLoaderData("gadgets");
-//   const { category } = useParams();
-
-//   const getGadgets = async () => {
-//     const response = await fetch("/gadget.json");
-
-//     console.log(response.data);
-//   };
-
-//   useEffect(() => {
-//     getGadgets();
-//   });
-
-//   return (
-//     <div>
-//       <h1>Gadget Cards {category}</h1>
-//       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-//         {gadgets &&
-//           gadgets.map((gadget, index) => (
-//             <p key={index}>{gadget.product_title}</p>
-//           ))}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default GadgetCards;
-
-// GadgetCards.js
 import { useEffect, useState } from "react";
-import { useParams, useRouteLoaderData } from "react-router-dom";
+import { useNavigate, useParams, useRouteLoaderData } from "react-router-dom";
 
 const GadgetCards = () => {
   const allGadgets = useRouteLoaderData("allGadgets");
   const categoryGadgets = useRouteLoaderData("categoryGadgets");
   const { category } = useParams();
   const [filteredGadgets, setFilteredGadgets] = useState([]);
-
+  const navigate = useNavigate();
   useEffect(() => {
     const gadgets = category ? categoryGadgets : allGadgets;
     if (category) {
@@ -69,7 +36,12 @@ const GadgetCards = () => {
               />
               <h2 className="text-lg font-semibold">{gadget.product_title}</h2>
               <p className="text-sm text-gray-600">${gadget.price}</p>
-              <button className="btn mt-1">View Details</button>
+              <button
+                className="btn mt-1"
+                onClick={() => navigate(`/details/${gadget.product_id}`)}
+              >
+                View Details
+              </button>
             </div>
           ))
         ) : (
